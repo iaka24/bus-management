@@ -1,0 +1,158 @@
+ 
+<html>
+    <head> 
+        
+         <title>Bus Management System</title>
+      <title>Bus Management System</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <style>
+            body 
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            .cont
+            {
+                background-image: url("pp.jpg");
+            }
+            .button {
+  position: relative;
+  background-color: #ccae62;
+  margin: 40px 50px 75px 150px;
+  border: none;
+  font-size: 28px;
+  color: #191970;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+
+.button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+            
+    </style>
+    
+    </head>
+    
+    
+  <body class="content" >
+          <div class="jumbotron">
+            <div class="container">
+                <h1>Welcome to  Bus Management System</h1>
+            </div>
+        </div>
+       <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Bus Management System</a>
+                </div>
+            </div>
+        </nav>
+        
+  <center><font size="10" color="WHITE" face="verdana"><strong>WELCOME TO BUS MANAGEMENT SYSTEM</strong></font></center>
+         <br/><br/>
+        
+        
+         
+         
+          <div class="row">
+                <div class="col-md-3">
+                    <div class="panel panel-info">
+                        <div class ="panel-heading">
+                            <h2> Admin Login</h2>
+                            
+                            
+                        </div>
+                        <div class="panel-body">
+                            <p>Admin panel allows you to control the Admin pannel of Bus Management System. Through this you can easy take the routes that are needed for you.</p>
+                            
+                            
+                             
+         <a href="">
+             <form action="ChooseServlet" method="get">
+             <button class="btn btn-primary btn-lg"><strong>ADMIN PANNEL</strong></button>
+         <input type="hidden" name="choose" value="admin"/>
+             </form>
+         </a>    
+                        </div>
+                    </div>
+                </div>
+         
+         
+           <div class="row">
+                <div class="col-md-3">
+                    <div class="panel panel-info">
+                        <div class ="panel-heading">
+                            <h2>Staff Login</h2>
+                            
+                            
+                        </div>
+                        <div class="panel-body">
+                            <p>Admin panel allows you to control the Staff pannel of Bus Management System. Through this you can easy take the routes that are needed to you. </p>
+                            
+         <a href="">
+             <form action="ChooseServlet" method="get">
+             <button class="btn btn-primary btn-lg"><strong>STAFF PANNEL</strong></button>
+             <input type="hidden" name="choose" value="staff"/>
+             </form>
+         </a>    
+                            
+                              </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="panel panel-info">
+                        <div class ="panel-heading">
+                            <h2>Student Login</h2>
+                            
+                            
+                        </div>
+                        <div class="panel-body">
+                            <p>Admin panel allows you to control the Student pannel of Bus Management System. Through this you can easy take the routes that are needed for you. </p>
+                            
+         <a href="">
+             <form action="ChooseServlet" method="get">
+             <button class="btn btn-primary btn-lg"><strong>STUDENT PANNEL</strong></button>
+              <input type="hidden" name="choose" value="student"/>
+             </form>
+         </a>    
+                 </div>
+                    </div>
+                </div>
+         
+          
+        
+    </body>
+</html>

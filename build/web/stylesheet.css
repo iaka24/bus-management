@@ -1,0 +1,52 @@
+*{margin:0px;padding:0px}
+.top-bar{height:10%;width:100%;background:#ecf0f1;text-align:center;COLOR:000000}
+.content{height:80%;width:100%;background-image:url("pp.jpg");background-repeat: no-repeat;background-size: 120% 100%;}
+.login-form{width:400px;height:320px;position:absolute; top:0px;left:0px;bottom:0px;right:0px;margin:auto;}
+.form-group{height:50px;width:100%;margin:20px 0px;}
+.form-control{height:100%;width:100%;font-size:20px;border-radius:5px;border:1px solid black;}
+.footer{height:10%;width:100%;background:#ecf0f1;}
+.w50{width:40% !important;float:left;padding:10px;}
+.form-control:hover{box-shadow:0 0 5px 2px red;}
+.buttons{ margin:0px 0px 15px 25px;}
+
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.1); 
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  height:80%;
+  width: 80%;
+  text-align: center;
+  background-color: rgba(0,0,0,1); 
+  color:#fff;
+}
+
+
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #aaaaaa;
+  text-decoration: none;
+  cursor: pointer;
+}
+
